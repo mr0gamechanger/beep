@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>beep-Ecommerce Website</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--Fonts-->
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;0,700;0,900;1,300;1,400;1,600&display=swap" rel="stylesheet">
+		
+		<!-- CSS-->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/font-awsome.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		
+		<link rel="shortcut icon" type="text/css" href="images/beep-1@2x.png">
+              
+    </head>
+    
+    <body class="white-background">
+    	<header class="header" id="myHeader">
+			<section class="container">
+				<!--logo-menu-->
+				<div class="row header">
+					<!--logo-->
+					<div class="col-md-3 header white-background">
+						<img src="images/beep-1@2x.png" alt="logo" class="header white-background">
+					</div>
+					
+					<!--menu-->
+					<div class="col-md-9 header white-background header-menu" align="right">
+						<a href="#profiles" class="white-background not-selected"><img src="images/profile_close_2@2x.png" alt="profile">  My Profile&emsp;</a>   
+						<a href="#cart" class="white-background not-selected"><img src="images/bag_3@2x.png" alt="cart">&emsp;0&ensp;Items &ensp;<label class="faded">$0.00&emsp;</label></a>
+						<a href="#search" class="white-background not-selected"><img src="images/search-icon@2x.png" alt="srarch"></a>
+					</div>
+				</div>
+			</section>
+		</header>
+		
+		<!--body-->
+		<section class="container">
+			
+			<!--nav-path-->
+			<div class="row nav-path white-background">
+				<a href="#home" class="path selected nav-path center"><p1 class="center">Home</p1></a>
+			  <p1 class="center">/</p1>
+				<a href="#Accesories" class="path selected nav-path"><p1 class="center">Accesories</p1></a>
+			</div>
+			
+			<!--banner-->
+			<div class="row banner">
+				
+				<!--categories-->
+				<div class="col-md-3 off-white all-cat"><br>
+					<p2 class="off-white title">ALL CATEGORIES</p2>
+					<div class="clickable-link off-white"><br>
+						<a href="#Accesories"><p1 class="off-white selected text">Accesories</p1></a>
+					</div>
+					<div class="clickable-link off-white"><br>
+						<a href="#Cables&Docks"><p1 class="off-white not-selected text">Cables & Docks</p1></a>
+					</div>
+					<div class="clickable-link off-white"><br>
+						<a href="#Cases&Films"><p1 class="off-white not-selected text">Cases & Films</p1></a>
+					</div>
+					<div class="clickable-link off-white"><br>
+						<a href="#ChargingDevices"><p1 class="off-white not-selected text">Charging Devices</p1></a>
+					</div>
+					<div class="clickable-link off-white"><br>
+						<a href="#ConnectedHomes"><p1 class="off-white not-selected text">Connected Homes</p1></a>
+					</div>
+					<div class="clickable-link off-white"><br>
+						<a href="#Headphones"><p1 class="off-white not-selected text">Headphones</p1></a>
+					</div><br><br><br>		
+				</div>
+				
+				<div class="col-md-1 col-gap">
+				
+				</div>
+				
+				<!--carousel-->
+				<div class="col-md-8 off-white carousel_">
+					<div class="row">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  						<ol class="carousel-indicators">
+    					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    					<li data-target="#myCarousel" data-slide-to="1"></li>
+   				 		<li data-target="#myCarousel" data-slide-to="2"></li>
+  						</ol>
+  						<div class="carousel-inner">
+   				 			<div class="item active">
+								<img src="images/pic@2x.png"  alt="Red" class="carousel-img">
+								<div class="carousel-caption">
+									<h1>Iphone 8</h1><br>
+									<p1>Performance and design. Taken right<br>
+									to the edge.<br></p1>
+									<a href="#shopnow"><h3>SHOP NOW</h3></a>
+								</div>
+    						</div>
+    						<div class="item">
+								<img src="images/pic@2x.png"  alt="Red" class="carousel-img">
+								<div class="carousel-caption">
+									<h1>Iphone 8</h1><br>
+									<p1>Performance and design. Taken right<br>
+									to the edge.<br></p1>
+									<a href="#shopnow"><h3>SHOP NOW</h3></a>
+								</div>
+    						</div>
+    						<div class="item">
+								<img src="images/pic@2x.png"  alt="Red" class="carousel-img">
+								<div class="carousel-caption">
+									<h1>Iphone 8</h1><br>
+									<p1>Performance and design. Taken right<br>
+									to the edge.<br></p1>
+									<a href="#shopnow"><h3>SHOP NOW</h3></a>
+								</div>
+    						</div>
+  						</div>
+						
+  						<!-- Left and right controls -->
+  						<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+						<span class="gylphicon gylphicon-chevron-left"></span>
+							<span class="sr-only">Previous</span>
+						</a>
+  						<a class="right carousel-control" href="#myCarousel" data-slide="next">
+						<span class="gylphicon gylphicon-chevron-right"></span>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+					</div>
+			</div>
+			
+			<!--spacer-->
+			<div class="row spacer"></div>
+			
+			<!--product-page-->
+			<div class="row product-page">
+				
+				<!--filters-->
+				<div class="col-md-3 filters box">
+					
+					<!--prices-->
+					<div class="row off-white">
+						<div class="row off-white text filters"><br>
+							<p2 class="off-white text">PRICES</p2>
+						</div>
+						<div class="row price filters">
+							<div class="col-md-6 text off-white"><br>
+								<p1 class="off-white text">Min</p1>
+							</div>
+							<div class="col-md-6 text off-white"><br>
+								<p1 class="off-white">&emsp;&ensp;Max</p1>
+							</div>
+						</div>
+						<div class="container mt-3 off-white">
+  							<form action="/action_page.php">
+    							<input type="range" class="custom-range off-white" id="customRange" name="points1">
+  							</form>
+						</div>
+						
+						<div class="row off-white bottom-padding_10px filters"><br>
+							<div class="col-md-5 off-white price">
+								<p1 class="off-white">&emsp;&ensp;&emsp;&ensp;$0</p1>
+							</div>
+							<div class="col-md-2 off-white price">
+							<p1 class="off-white">-</p1>
+							</div>
+							<div class="col-md-5 off-white">
+								<p1 class="off-white">&emsp;$499</p1>
+							</div>
+						</div>
+					</div>
+					
+					<!--spacer-->
+				  <div class="row spacer"></div>
+					
+					<!--color-->
+					<div class="row filters off-white">
+						<div class="row off-white text filters"><br>
+							<p2 class="off-white text">COLOR</p2>
+						</div><br>
+						
+						<!--radio-buttons-->
+						<div class="row radio-buttons">
+							<div class="col-md-2 blue off-white">
+								<label class="blue off-white">
+  								<input type="radio" name="color" value="blue">
+ 							 	<div class="layer off-white"></div>
+  								<div class="button off-white"><span></span></div>
+								</label>
+							</div>
+							<div class="col-md-2 red off-white">
+								<label class="red off-white">
+  								<input type="radio" name="color" value="red">
+ 							 	<div class="layer off-white"></div>
+  								<div class="button off-white"><span></span></div>
+								</label>
+							</div>
+							<div class="col-md-2 black off-white">
+								<label class="black off-white">
+  								<input type="radio" name="color" value="black">
+ 							 	<div class="layer off-white"></div>
+  								<div class="button off-white"><span></span></div>
+								</label>
+							</div>
+							<div class="col-md-2 yellow off-white">
+								<label class="yellow off-white">
+  								<input type="radio" name="color" value="yellow">
+ 							 	<div class="layer off-white"></div>
+  								<div class="button off-white"><span></span></div>
+								</label>
+							</div>
+							<div class="col-md-2 pink off-white">
+								<label class="pink off-white">
+  								<input type="radio" name="color" value="pink">
+ 							 	<div class="layer off-white"></div>
+  								<div class="button off-white"><span></span></div>
+								</label>
+							</div>
+							<div class="col-md-2 grey off-white">
+								<label class="grey off-white">
+  								<input type="radio" name="color" value="grey">
+ 							 	<div class="layer off-white"></div>
+  								<div class="button off-white"><span></span></div>
+								</label>
+							</div>
+						</div>
+					</div>
+					
+					<!--spacer-->
+					<div class="row spacer"></div>
+					
+					<!--brand-->
+					<div class="row filters off-white">
+						<div class="row off-white title filters">
+<p2 class="off-white text">BRAND</p2>
+						</div>
+						<div class="row off-white clickable-link filters"><br>
+						<a href="#Apple" class="text"><p1 class="off-white selected brand-text">Apple</p1></a>
+						</div>
+						<div class="row off-white filters"><br>
+						<a href="#Beats" class="text"><p1 class="off-white not-selected brand-text">Beats</p1></a>
+						</div>
+						<div class="row off-white clickable-link filters"><br>
+						<a href="#Samsung" class="text"><p1 class="off-white not-selected brand-text">Samsung</p1></a>
+						</div>
+						<div class="row off-white filters"><br>
+						<a href="#Siemens" class="text"><p1 class="off-white not-selected brand-text">Siemens</p1></a>
+						</div><br>
+					</div>
+					
+					<!--spacer-->
+					<div class="row spacer"></div>
+					
+					<div class="row filters off-white center"><br>
+						<a href="#more"><p2 class="off-white not-selected">MORE</p2></a>
+					</div> <br>
+				</div>
+				
+				<div class="col-md-1 col-gap"></div>
+				
+				<!--products-->
+				<div class="col-md-8 products box">
+					
+					<!--functions-->
+					<div class="row functions off-white">
+						<div class="col-md-2 text-function off-white">
+							<p1 class="off-white">13 Items</p1>
+						</div>
+						<div class="col-md-4 text-function off-white">
+							<p1 class="off-white">Sort By&emsp;&emsp;</p1> 
+						  <div class="sort-by off-white">
+  								<span class="off-white"><p1 class="off-white">Name</p1></span>
+ 								 <div class="sort-by-content off-white">
+    								 <p class="off-white"><a class="selected off-white"><p1 class="off-white">Name</p1></a></p>
+									 <p class="off-white"><a class="not-selected off-white"><p1 class="off-white">Price</p1></a></p>
+									 <p class="off-white"><a class="not-selected off-white"><p1 class="off-white">Rating</p1></a></p>
+									 <p class="off-white"><a class="not-selected off-white"><p1 class="off-white">Popularity</p1></a></p>
+  								</div>
+							</div>
+						</div>
+						<div class="col-md-6 text-function off-white">
+							<p1 class="off-white">Show</p1>
+						  	<div class="show off-white">
+  								<span class="off-white">12</span>
+ 								 <div class="show-content off-white">
+    								 <p class="off-white"><a class="not-selected"><p1 class="off-white">1</p1></a></p>
+									 <p class="off-white"><a class="not-selected"><p1 class="off-white">3</p1></a></p>
+									 <p class="off-white"><a class="not-selected"><p1 class="off-white">6</p1></a></p>
+									 <p class="off-white"><a class="not-selected"><p1 class="off-white">9</p1></a></p>
+									 <p class="off-white"><a class="selected"><p1 class="off-white">12</p1></a></p>
+  								</div>
+							</div>
+						</div>
+					</div>
+				
+					<!--spacer-->
+					<div class="row spacer"></div>
+					
+					<!--producs-->
+					<div class="row text left-padding_20px">
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+						  <a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price  gap">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price ">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price ">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price ">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--spacer-->
+					<div class="row spacer"></div>
+					
+					<div class="row text">
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--spacer-->
+					<div class="row spacer"></div>
+					<div class="row text">
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--spacer-->
+					<div class="row spacer"></div>
+					<div class="row text">
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text product-text gap">
+							<div class="row product-image">
+								<img src="images/Rectangle 5.png" class="product-image" alt="product">
+								<div class="product-image-content">
+  									<img src="images/Rectangle 5.png" class="product-image" alt="product" width="150%" height="150%">
+  								</div>
+							</div>
+							<hr>
+							<a class="clickable-link"><p1>Apple Macboook Pro</p1></a><br>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star checked"></span>
+							<span class="fa fa-star"></span>
+							<span class="fa fa-star"></span><br>
+							<div class="row">
+								<div class="col-md-6 offer-price">
+								$499 
+								</div>
+								<div class="col-md-6 linethrough actual-price">
+								$599
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<!--spacer-->
+					<div class="row spacer"></div>
+					
+					<!--page-number-->
+					<div class="row off-white page-number">
+						<div class="col-md-4 off-white"></div>
+						<div class="col-md-4 off-white">
+							<a href="#1">1</a>
+							<a href="#2">2</a>
+  							<a class="active" href="#3">3</a>
+  							<a href="#3">4</a>
+							<a href="#4">5</a>
+						</div>
+						<div class="col-md-4 off-white"></div>
+					</div>
+				</div>
+					
+				
+
+			</div>
+		</section>
+		
+		<script>
+			window.onscroll = function() {myFunction()};
+			var header = document.getElementById("myHeader");
+			var sticky = header.offsetTop;
+
+			function myFunction() {
+  				if (window.pageYOffset > sticky) {
+    				header.classList.add("sticky");
+  				} else {
+    				header.classList.remove("sticky");
+  				}
+			}
+		</script>
+		<!-- Bootstrap JavaScript-->
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>	
+	</body>
+		<!--spacer-->
+				<!--spacer-->
+<div class="row spacer"></div>
+				<!--spacer-->
+					<div class="row spacer"></div>
+				<!--spacer-->
+					<div class="row spacer"></div>
+				<!--spacer-->
+					<div class="row spacer"></div>
+				<!--spacer-->
+					<div class="row spacer"></div>
+    <hr>
+    <!-- footer-->
+    <footer class="footer white-background">
+		<!--contact-->
+		<section class="about white-background">
+			<!-- main character-->
+			<div class="container white-background">
+				<div class="row white-background">
+				
+					<!-- left-col-->
+					<div class="col-md-4 white-background">
+						<img src="images/beep@2x.png" alt="logo" class="header white-background"><br>
+						<p3>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer.</p3>
+					</div>
+					
+					<!--mid-col-->
+					<div class="col-md-4 white-background"><br><br>
+						<div class="white-background"><p2 class="top-padding-20px">Follow Us</p2></div>
+						<p3><br>Since the 1500s, when an unknown printer took a galley of type and scrambled.<br></p3>
+						<a class="btn"><img src="images/facebook.png" alt="facebook"></a>
+						<a class="btn"><img src="images/twitter.png" alt="twitter"></a><br>
+					</div>
+					
+					<!--col-right-->
+					<div class="col-md-4 white-background"><br><br>
+						<div class="white-background"><p2>Contact Us</p2></div><br>
+						<p3>My Company, 4578 Marmora Road, Glasgow<br>
+						D04 89GR<br>
+						Call us now: 0123-456-789<br>
+						Email: support@whatever.com</p3>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<hr>
+        <!-- main container-->
+        <div class="footer">
+            <!-- single row-->
+            <div class="row">
+                <!--col left-->
+                <div class="col-md-10">
+                    <p3><p3-grey>&copy; 2021 Ecommerce site by www.beep.com</p3-grey></p3>
+				</div>
+				<!-- col right-->
+				<div class="col-md-2">
+				  <img src="images/Western-union.png" alt="western union">
+					<img src="images/Master Card.png" alt="master card">
+					<img src="images/Paypal.png" alt="paypal">
+					<img src="images/Visa.png" alt="visa">
+                </div>
+            </div>
+      </div>
+    </footer>
+
+</html>
